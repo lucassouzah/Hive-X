@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color:rgb(200, 140, 87);
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.table {
+    border-radius: 30px;
+}
+
+.navbar{
+    background: #353D41; 
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+
+}
+
+.navbar-brand{
+    width: 180px;
+}
+
+.nav-item{
+    padding-left: 500px;
+}
+.alerta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+.btn{
+    
+    color: #FFF;
+    text-transform: uppercase;
+    width: 200px;
+    height: 50px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border-color: #b76e29;
+    transition: .5s;
+}
+
+.btn:hover{
+    text-decoration: none;
+    color: #FFF;
+    background-color: #cf7047;
+    border: 3px solid transparent;
+}
+
+
+
+.modal{
+    width: 500px;
+    height: 300px;
+    background-color: #767675;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 2px solid black;
+    transform: translate(-50%,-50%);
+    display: none;
+    animation: animate;
+    animation-duration: 800ms;
+    border-radius: 15px;
+}
+@keyframes animate {
+    from{opacity: 1;}
+    from{opacity: 0;}
+}
+
+.fechar{
+    width: 60px;
+    height: 30px;
+    color: white;
+    background-color: rgb(255, 138, 5);
+    border: 2px solid black;
+    border-radius: 10%;
+    cursor: pointer;
+    float:right;
+    
+}
+
+.label{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btninfo{
+    color: #FFF;
+    background-color: rgb(90, 90, 90);
+    width: 100px;
+    height: 50px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border-color: #b76e29;
+    transition: 0.3s;
+
+}
+
+.btninfo:hover{
+    text-decoration: none;
+    color: #FFF;
+    background-color: #cf7047;
+    border: 3px solid transparent;
+
+}
+
+.btntb{
+    color: #FFF;
+    background-color: rgb(90, 90, 90);
+    width: 30px;
+    height: 50px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border-color: #b76e29;
+    transition: 0.3s;
+}
+.btntb:hover{
+    text-decoration: none;
+    color: #FFF;
+    background-color: #cf7047;
+    border: 3px solid transparent;
+
+}
+
+.box-search{
+    display: flex;
+    justify-content: center;
+    gap: 0.3%;
+}
